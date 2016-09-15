@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  box-sizing: padding-box;
+}
+header {
+  background-image: url(../gallery/cite_des_sciences.jpg);
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 200px;
+}
+h1 {
+  font-family: arial;
+  text-align: center;
+  font-size: 55px;
+  color: white;
+  margin-top: 100px;
+}
+header #btn-discover {
+  margin-top: 50px;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+}
+#container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  /*background-color: grey;*/
+}
+.profil {
+  border: 1px solid grey;
+  width: 100%;
+  padding: 20px;
+  box-sizing: padding-box;
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+#logofooter {
+  width: 175px;
+}
+footer {
+  clear: both;
+  background-image: url(../gallery/cite_des_sciences.jpg);
+  width: 100%;
+  padding: 20px;
+  box-sizing: padding-box;
+  text-align: center;
+}
+.rond {
+  border-radius: 100%;
+  margin-top: -50px;
+  width: 125px;
+}
+@media screen and (max-width: 600px) {
+  header {
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .r-padding-xs {
+    padding: 0 !important;
+  }
+}
